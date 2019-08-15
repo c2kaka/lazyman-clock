@@ -1,0 +1,7 @@
+directories:
+  output: build
+  buildResources: build
+productName: lazyman-clock
+appId: com.fanoy.lazymanClock
+copyright: fanoykaka
+electronVersion: 6.0.2

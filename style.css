@@ -1,0 +1,23 @@
+.icon {
+    width: 8em;
+    height: 8em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.icon-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.icon-list > .icon-item{
+    margin: 30px 0;
+}
+.countdownArea{
+    text-align: center;
+}

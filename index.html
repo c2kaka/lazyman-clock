@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="icon-list" id="iconList">
+        <div class="icon-item">
+            <svg id="cookEgg" class="icon" aria-hidden="true">
+                <use xlink:href="#icon-cookEgg"></use>
+            </svg>
+            <div class="countdownArea">
+                <span id="eggInfo"></span><span id="eggCD"></span>
+            </div>
+        </div>
+        <div class="icon-item">
+            <svg id="cookNoodles" class="icon" aria-hidden="true">
+                <use xlink:href="#icon-noodles"></use>
+            </svg>
+            <div class="countdownArea">
+                <span id="noodleInfo"></span><span id="noodleCD"></span>
+            </div>
+        </div>
+        <div class="icon-item">
+            <svg id="boilWater" class="icon" aria-hidden="true">
+                <use xlink:href="#icon-boilWater"></use>
+            </svg>
+            <div class="countdownArea">
+                <span id="waterInfo"></span><span id="waterCD"></span>
+            </div>
+        </div>
+        <div class="icon-item">
+            <svg id="washClothes" class="icon" aria-hidden="true">
+                <use xlink:href="#icon-washer"></use>
+            </svg>
+            <div class="countdownArea">
+                <span id="washInfo"></span><span id="washCD"></span>
+            </div>
+        </div>
+    </div>
+    <script src="./vendor/js/iconfont.js"></script>
+    <script src="./js/clock.js"></script>
+</body>
+</html>

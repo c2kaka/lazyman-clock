@@ -1,0 +1,29 @@
+{
+  "name": "lazyman-clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^6.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "builder": "electron-builder",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "productName": "lazyman-clock",
+    "appId": "com.fanoy.lazymanClock",
+    "copyright": "fanoykaka",
+    "directories": {
+      "output": "build"
+    }
+  },
+  "dependencies": {
+    "node-notifier": "^5.4.1"
+  }
+}
